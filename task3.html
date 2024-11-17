@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweets & Bakeries</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sweets & Bakeries</h1>
+        <nav>
+            <ul>
+                <li><a href="#carousel">Gallery</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#joke">Joke of the Day</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="carousel">
+        <h2>Our Delicious Treats</h2>
+        <div class="carousel">
+            <img id="carousel-image" src="https://img.freepik.com/premium-photo/delicious-desserts-bakery_1013061-303.jpg" alt="Bakery Item">
+            
+             <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+    </section>
+   <section id="Quiz">
+<div id="quiz-container" class="quiz-container">
+            <button id="start-quiz">Start Quiz</button>
+            <div id="quiz" class="quiz" style="display:none;"></div>
+            <button id="submit-answer" style="display:none;">Submit Answer</button>
+            <div id="result" class="result"></div>
+        </div>
+        <button id="display-joke">Display Joke of the Day</button>
+        <div id="joke" class="joke" style="display:none;"></div>
+    </div>
+        <script src="task3.js"></script>
+</body>
+</html>
